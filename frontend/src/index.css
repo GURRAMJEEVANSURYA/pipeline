@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik+Vinyl&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: Outfit, sans-serif;
+}
+body{
+  min-height: 100vh;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
